@@ -1,0 +1,14 @@
+# Editor
+.vscode
+
+# Python
+*.egg-info
+__pycache__
+
+# Pytest
+.coverage
+.pytest_cache
+
+# Python package
+build
+dist
