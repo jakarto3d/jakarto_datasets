@@ -3,10 +3,10 @@
 We built that python API to share some real-world 3d lidar datasets of urban assets. We hope to help some of you to develop and test algorithms about 3d lidar processing.
 
 
-![jakarto car detection](doc/images/jakarto_car_detection.png)
+![jakarto car detection](https://raw.githubusercontent.com/jakarto3d/jakarto_datasets/master/doc/images/jakarto_car_detection.png)
 
 Those datasets have been gathered with the [Jakarto](https://www.jakarto.com) truck.
-![jakarto truck](doc/images/camion_jakarto.jpg)
+![jakarto truck](https://raw.githubusercontent.com/jakarto3d/jakarto_datasets/master/doc/images/camion_jakarto.jpg)
 
 
 ## Installation
