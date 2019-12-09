@@ -14,3 +14,13 @@ script:
   - pytest
 after_success:
   - codecov
+deploy:
+  provider: pypi
+  user: "__token__"
+  password:
+    secure: BN8gIXRjcPi0cC6FLD85NYZgivHr3snL6yfHky2e8Z9olJzQrP16vuS4Nn038dOPQPMn3SfHfKELJaCYdLGVHZFghL6ZxUcnTNdG+za2I8vuzG4TQLdDsjYWTtzZoij3kpXjsgy5WIVAQiMepbiMVGb6Nt2ub+vvUbCbZ/iDY2AqTPCGNrdBtaFnb+eJ6DqYDF/F1SMlkhoX/kgfehFCkMMoJPHEAygwG0xj4Hlq0wro19shkdZWEFaIGmAwGjrn8p3/ua5dtU/g+7h9I5oyjLZTkcn1hykbfb7ITiE6B/kk3NR9dDatUNz7Y2N5ojk4PUQ0KsjNvOz53IEIeZM3BLDD8lPUj8hmM49XCyhM6vlhWFUddNqvWRn6U+s9MmF/ISZvPsQejbZy7t/euTU1qR0yPHrzvdbx3UtIlxFFCz1LN/y8ki4rVNMCL4ddPBI8PZAP/3lCdsTslHCquso211ytYqlVhSp8ZRxfWQFNspad3n6lMiS9fZvKP1LG2/BkUcEvUepmF7QEj6EFEqtFcuF1JTgNeSPoQZXo/8MllDgJgO0DMJOH/kCBQ5Be5ejyhVvIpvj9MZkTWDbcTfEeWNkUl8gTtC75PfxXHxr3HAwsnYZ5CZRDMtk4guGSZxIvl+diZm0S9kutHtdN7FH37av7wg66HjBCKTZlyEui4J8=
+  distributions: "sdist bdist_wheel"
+  skip_existing: true
+  on:
+    branch: master
+    tags: true
