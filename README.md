@@ -1,6 +1,7 @@
 # Jakarto datasets for 3d detection challenge of urban assets
 
-[![Build Status](https://travis-ci.org/jakarto3d/jakarto_datasets.svg?branch=master)](https://travis-ci.org/jakarto3d/jakarto_datasets) [![PyPI version](https://badge.fury.io/py/jakarto-datasets.svg)](https://badge.fury.io/py/jakarto-datasets) [![License](https://img.shields.io/github/license/jakarto3d/jakarto_datasets)](https://github.com/jakarto3d/jakarto_datasets/blob/master/LICENSE.txt) [![GitHub stars](https://img.shields.io/github/stars/jakarto3d/jakarto_datasets.svg?style=flat&label=github&nbsp;stars&nbsp;&starf;)](https://GitHub.com/jakarto3d/jakarto_datasets/stargazers/)
+[![Build Status](https://travis-ci.org/jakarto3d/jakarto_datasets.svg?branch=master)](https://travis-ci.org/jakarto3d/jakarto_datasets) [![Code coverage](https://codecov.io/gh/jakarto3d/jakarto_datasets/branch/master/graph/badge.svg)](https://codecov.io/gh/jakarto3d/jakarto_datasets) [![License](https://img.shields.io/github/license/jakarto3d/jakarto_datasets)](https://github.com/jakarto3d/jakarto_datasets/blob/master/LICENSE.txt) 
+[![PyPI version](https://badge.fury.io/py/jakarto-datasets.svg)](https://badge.fury.io/py/jakarto-datasets) [![GitHub stars](https://img.shields.io/github/stars/jakarto3d/jakarto_datasets.svg?style=flat&label=github&nbsp;stars&nbsp;&starf;)](https://GitHub.com/jakarto3d/jakarto_datasets/stargazers/)
 
 
 We built that python API to share some real-world 3d lidar datasets of urban assets. We hope to help some of you to develop and test algorithms about 3d lidar processing.
