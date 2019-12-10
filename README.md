@@ -65,7 +65,7 @@ We will be more than happy to share your experiments.
 If you find this work useful and wish to refer to, please consider the following BibTeX entry:
 
     @MISC{jakarto_datasets,
-        author = {Loic Messal and Cedric Pelletier and {Jakarto Cartographie 3d team}},
+        author = {Loic Messal and Cedric Pelletier},
         title = {Jakarto datasets},
         year = {2019},
         howpublished={\url{https://github.com/jakarto3d/jakarto_datasets}}
