@@ -45,9 +45,9 @@ for data in storm_drains_2019.training_set:
 
 ## Datasets
 
-| datasets | year | 3d lidar | label | raster | mask | `len(training_set)` | `len(testing_set)` | examples | description |
-| --- | --- | --- | --- | --- | --- | --- | --- | ---| --- |
-| storm drains | 2019 | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark:  | :heavy_check_mark: | 223 | 150 | [see examples](examples/storm_drains/README.md) | [see details](examples/storm_drains/README.md) |
+| datasets | year | size | 3d lidar | label | raster | mask | `len(training_set)` | `len(testing_set)` | examples |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | ---|
+| [storm drains](examples/storm_drains/README.md) | 2019 | 2,29 Go | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | 223 | 150 | [see examples](examples/storm_drains/README.md) |
 
 
 ## Benchmarks
